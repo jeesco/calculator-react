@@ -1,0 +1,38 @@
+.button-container {
+  height: 80px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #0A9396;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.1s linear;
+}
+
+.button-container:active {
+  background-color: #00494b;
+}
+
+.button-container:hover {
+  transform: scale(1.03);
+}
+
+.operator {
+  background-color: #9B2226;
+  transition: background-color 0.3s linear;
+}
+
+.operator:hover {
+  transform: scale(1.03);
+}
+
+.operator:active {
+  background-color: #fa686d;
+}
